@@ -1,0 +1,26 @@
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+target/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Startup logs
+**/startup-error.txt
+**/startup-log.txt

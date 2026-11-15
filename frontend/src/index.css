@@ -1,0 +1,51 @@
+:root {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  color: #282b25;
+  background: #f5f3ed;
+  font-size: 16px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --atelier-cream: #f5f3ed;
+  --atelier-paper: #fbfaf6;
+  --atelier-ink: #282b25;
+  --atelier-muted: #77786e;
+  --atelier-olive: #596b50;
+  --atelier-forest: #303e34;
+  --atelier-line: #e6e2d8;
+  --atelier-serif: 'Iowan Old Style', 'Baskerville', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--atelier-cream);
+}
+
+body,
+button,
+a {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+::selection {
+  color: #fff;
+  background: var(--atelier-olive);
+}
