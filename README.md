@@ -259,5 +259,5 @@ Possible follow-up work—not currently implemented—could include:
 
 The project source does not currently identify an author or GitHub repository URL. Replace these placeholders when the project is published:
 
-- **Author:** _Add project author name_
-- **GitHub repository:** _Add repository URL_
+- Author: KATURI HARSHA VARDHAN
+- GitHub repository: https://github.com/Harsha31316/photography-atelier
